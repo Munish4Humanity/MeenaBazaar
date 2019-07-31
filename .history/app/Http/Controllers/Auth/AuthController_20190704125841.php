@@ -71,10 +71,10 @@ class AuthController extends Controller
      *
      * @return [json] user object
      */
-     PUBLIC FUNCTION USER(REQUEST $REQUEST)
-     {
-         RETURN RESPONSE()->JSON($REQUEST->USER());
-     }
+    // PUBLIC FUNCTION USER(REQUEST $REQUEST)
+    // {
+    //     RETURN RESPONSE()->JSON($REQUEST->USER());
+    // }
 
     // public function user()
     // {
