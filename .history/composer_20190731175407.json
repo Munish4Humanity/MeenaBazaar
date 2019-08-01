@@ -17,8 +17,7 @@
         "laravelcollective/html": "^5.8.0",
         "infyomlabs/coreui-templates": "5.8.x-dev",
         "infyomlabs/swagger-generator": "dev-master",
-        "appointer/swaggervel": "dev-master",
-        "doctrine/dbal": "~2.3"
+        "appointer/swaggervel": "dev-master"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
