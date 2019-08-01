@@ -19,7 +19,7 @@ Route::group([
     //     'uses' => 'Auth\AuthController@login',
     //     'as'   => 'login'
     // ]);
-    Route::post('login', ['as' => '', 'uses' => 'Auth\AuthController@login']);
+    Route::post('login', ['as' => '', 'uses' => '/Auth\AuthController@login']);
     //Route::post('login', 'Auth\AuthController@login')->name('login');
     Route::post('register', 'Auth\AuthController@register');
     Route::group([
